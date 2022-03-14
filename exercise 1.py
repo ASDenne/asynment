@@ -15,16 +15,10 @@ while control != 4:
     print("2 pick a pet up")
     print("3 print roll")
     print("4 quit")
-    try:
-            control = int(input(">>"))
-    except:
-        why = 1+1
+    control = int(input(">>"))
     while control > 0 and control < 5:
         print("please enter a number between 1 and 4")
-        try:
-            control = int(input(">>"))
-        except ValueError:
-            why = 1 + 2
+        control = int(input(">>"))
     if control == 1:
         print(1)
     elif control == 2:
