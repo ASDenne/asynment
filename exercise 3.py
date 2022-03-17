@@ -46,7 +46,7 @@ Pguess = ""
 Cguess = ""
 Pscore = 0
 Cscore = 0
-while Cscore + Pscore != 3:
+while Cscore != 3 and Pscore != 3:
     Pguess = player_guess()
     Cguess = computer_guess()
     Rwinner = who_won(Pguess, Cguess)
