@@ -30,4 +30,4 @@ while program != "x":
     else:
         print("input not valid")
 print(f"{AK_count} people signed up for active kidz at an average age of {AK_age/AK_count}")
-print(f"{FITS_count} people signed up for active kidz at an average age of {FITS_age/AK_count}")
+print(f"{FITS_count} people signed up for fun in the sun at an average age of {FITS_age/FITS_count}")
